@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "env": {
+                "DOMAIN": "dubgo.com",
+                "IMAP_SERVER": "alkaid.uberspace.de",
+                "IMAP_USER": "disposable-email@dubgo.alkaid.uberspace.de",
+                "IMAP_PASSWORD": "rcvg7PPMaMgKcKuym9[p",
+                "IMAP_REFRESH_INTERVAL_SECONDS": "",
+                "DEBUG": "void-mail:*"
+            }
+        }
+    ]
+}
